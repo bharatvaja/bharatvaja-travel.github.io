@@ -3,7 +3,7 @@
     margin:0px;
     padding:0px;
     box-sizing:border-box;
-    text-transform:cspitalize;
+    text-transform:capitalize;
     font-family: 'Josefin Sans', sans-serif;
     list-style-type:none;
     font-family: 'Kumbh Sans', sans-serif;
@@ -497,4 +497,10 @@ align-items:center;
     align-items:center;
     text-align:center;
     font-weight: bold;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style-type:none;
 }
