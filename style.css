@@ -213,6 +213,67 @@ box-shadow: 0px 5px 5px -6px black;
     .main-text h1{
         padding:20px;
     }
+       #whatsapp{
+    position: fixed;
+    bottom:5%;
+    left:80%;
+   }
+   #whatsapp{
+    background-color: #ffa500;
+    color: #f9f9f9;
+    font-size:14px;
+    display: flex;
+    width:100px;
+    height:35px;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+    list-style-type:none;
+    text-decoration:none;
+    border-radius: 30px;
+    align-items:center;
+}
+#whatsapp:hover{
+background-color: #f9f9f9;
+color: black;
+font-size:14px;
+display: flex;
+box-shadow: 1px 3px 6px black;
+width:100px;
+transition: all 0.8s linear;
+font-weight:700;
+height:35px;
+justify-content:center;
+text-align:center;
+align-items: center;
+border-radius: 30px;
+align-items:center;
+}
+#top{
+    position: fixed;
+    bottom:5%;
+    color:white;
+    border-radius:50%;
+    background-color:black;
+    left:95%;
+    border-radius:20px;
+    padding:10px;
+    scroll-behavior: smooth;
+     
+}
+#top:hover{
+background-color: #f9f9f9;
+color: black;
+font-size:14px;
+box-shadow: 1px 3px 6px black;
+transition: all 0.8s linear;
+font-weight:700;
+justify-content:center;
+text-align:center;
+align-items: center;
+border-radius: 30px;
+align-items:center;
+}
  }
  .packges .card{
     border-radius: 5px;
